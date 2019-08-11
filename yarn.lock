@@ -141,13 +141,6 @@ blockheads-api-interface@^0.0.1:
   resolved "https://registry.yarnpkg.com/blockheads-api-interface/-/blockheads-api-interface-0.0.1.tgz#fec142631005187cb2c7f3264f7a463dee2c9760"
   integrity sha512-deV8tK93CE7gGd2Xn5Rn3Tk5tPFrM3+32VeoqYEqKcZrGTDzotvWckqDv4Sd/p0CXA1F6bm9nVUaRhO6uuYegQ==
 
-blockheads-cloud-api@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/blockheads-cloud-api/-/blockheads-cloud-api-0.0.4.tgz#c5552e9d48f77f509dc4b14dfd1fc2e0ee058e3b"
-  integrity sha512-mwFnMUaDCxlO8J0sDuajJjPl6WJHtDwlfxCUgbiXrj2BPOOFCuVvQd+P9DL9qWha4el1V0d0tcZdLKOAo6EGeQ==
-  dependencies:
-    blockheads-api-interface "^0.0.1"
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"

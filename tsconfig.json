@@ -1,20 +1,17 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "esnext",
         "lib": [
             "dom",
             "es7",
             "dom.iterable",
-            "scripthost"
         ],
         "moduleResolution": "node",
         "downlevelIteration": true,
         "removeComments": false,
-        "noImplicitAny": true,
-        "strictNullChecks": true,
+        "strict": true,
         "sourceMap": true,
         "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "esModuleInterop": true,
         "typeRoots": [
             "./node_modules/@types",
