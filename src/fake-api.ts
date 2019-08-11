@@ -1,4 +1,4 @@
-import { 
+import {
     WorldInfo,
     WorldApi,
     WorldLists,
@@ -48,7 +48,7 @@ export class Api implements WorldApi {
             credit_until: new Date(),
             last_activity: new Date(),
             link: 'https://forums.theblockheads.net/t/the-message-bot/18040',
-            owner: 'BIBLIOPHILE',
+            owner: 'OWNER',
             password: false,
             privacy: 'public',
             pvp: true,
@@ -75,7 +75,7 @@ export class Api implements WorldApi {
 
         // Don't keep too many messages around.
         this.queue = this.queue.slice(-100)
-    
+
         return {
             nextId: this.messageId,
             log

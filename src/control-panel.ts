@@ -49,10 +49,12 @@ MessageBot.registerExtension('control-panel', ex => {
             .join('')
         const ip = getRandomIp()
         const id = 'a'.repeat(32)
+        const player = world.getPlayer(name)
         world._api.addFakeMessage(`WORLD - Player Connected ${name} | ${ip} | ${id}`)
 
         ui.buildTemplate(template, container, [
-            { selector: '.name', text: name }
+            { selector: '.name', text: name },
+            { selector: 'select', value: player.isAdmin ? 'admin' : player.isMod ? 'mod' : 'player' }
         ])
     })
 
